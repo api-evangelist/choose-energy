@@ -1,0 +1,19 @@
+# Choose Energy
+
+> Choose Energy is a free online energy marketplace, founded in 2008 and operated by Red Ventures, that helps consumers and businesses in deregulated U.S. energy markets compare electricity and natural gas plans, view transparent all-inclusive pricing, and switch providers online in minutes. It is a consumer-facing web marketplace and does not publish a public developer API.
+
+## About
+
+- [About Choose Energy](https://www.chooseenergy.com/about-us/): Company overview, mission, and deregulated-market coverage
+- [Blog](https://www.chooseenergy.com/blog/): Energy rates, savings guides, and market education
+- [Customer Support](https://powercustomersupport.zendesk.com/hc/en-us): Help center and enrollment support
+
+## Legal
+
+- [Privacy Policy](https://www.chooseenergy.com/privacy-policy/)
+- [Terms of Use](https://www.chooseenergy.com/terms-of-use/)
+
+## Notes
+
+- No public API, SDKs, OpenAPI, MCP server, or developer portal are published as of 2026-07-18.
+- Domain security posture (TLS 1.3, SPF, DMARC p=reject) is captured in security/choose-energy-domain-security.yml.

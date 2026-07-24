@@ -1,8 +1,25 @@
 aid: choose-energy
 name: Choose Energy
-description: 'Choose Energy is a company surfaced as a portfolio company of kleiner-perkins and added
-  to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Choose Energy is a free online energy marketplace, founded in 2008 and
+  operated by Red Ventures, that helps consumers and businesses in deregulated U.S.
+  energy markets compare electricity and natural gas plans, view transparent all-inclusive
+  pricing, and switch providers online in minutes. The platform serves customers across
+  Texas, Pennsylvania, Ohio, Illinois, New Jersey, New York, Maryland, Massachusetts,
+  Connecticut, and other deregulated states, and also offers solar cost estimation,
+  business energy procurement, and educational energy resources. Choose Energy is a
+  consumer-facing web marketplace and does not publish a public developer API.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.chooseenergy.com/icon.png
 url: https://raw.githubusercontent.com/api-evangelist/choose-energy/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +29,43 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Consumer
+- Energy
+- Electricity
+- Natural Gas
+- Marketplace
+- Utilities
+- Comparison
+- Deregulated Energy
+- Solar
 apis: []
+common:
+- type: DomainSecurity
+  url: security/choose-energy-domain-security.yml
+- type: LLMsTxt
+  url: llms/choose-energy-llms.txt
+- type: Website
+  url: https://www.chooseenergy.com/
+- type: About
+  url: https://www.chooseenergy.com/about-us/
+- type: Blog
+  url: https://www.chooseenergy.com/blog/
+- type: Support
+  url: https://powercustomersupport.zendesk.com/hc/en-us
+- type: PrivacyPolicy
+  url: https://www.chooseenergy.com/privacy-policy/
+- type: TermsOfService
+  url: https://www.chooseenergy.com/terms-of-use/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
