@@ -8,6 +8,17 @@ description: 'Choose Energy is a free online energy marketplace, founded in 2008
   Connecticut, and other deregulated states, and also offers solar cost estimation,
   business energy procurement, and educational energy resources. Choose Energy is a
   consumer-facing web marketplace and does not publish a public developer API.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
